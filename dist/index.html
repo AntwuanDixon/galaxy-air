@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Booker</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <div class='flight-card'>
+        <div class="container">
+            <h1>Galaxy Booker</h1>
+        </div>
+        <div class="container">
+            <select name='flight-type' id='flight-type'>
+                <option value='one-way' class='flight-option'>One Way</option>
+                <option value='round-trip' class='flight-option'>Round Trip</option>
+            </select>
+        </div>
+        <div class="container">
+            <input placeholder="Departing Date" type="text" name='depart-date' class='start'>
+        </div>
+        <div class="container">
+            <input placeholder="Returning Date" type="text" name='return-date' class='end'>
+        </div>
+        <div class='container'>
+            <button id='book-btn'>Book</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
